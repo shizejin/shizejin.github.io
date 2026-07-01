@@ -113,7 +113,8 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   line-height: 1.25;
   font-weight: 700;
 }
@@ -131,8 +132,13 @@ h2 {
 }
 
 h3 {
-  margin: 22px 0 4px;
+  margin: 24px 0 10px;
   font-size: 1.05rem;
+}
+
+h4 {
+  margin: 18px 0 4px;
+  font-size: 1rem;
 }
 
 p {
