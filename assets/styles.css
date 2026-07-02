@@ -14,7 +14,7 @@ body {
   margin: 0;
   background: #fff;
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -80,6 +80,7 @@ main,
 
 .nav a {
   color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.95rem;
   text-decoration: none;
 }
@@ -147,8 +148,10 @@ p {
 
 .meta,
 .note,
-.footer-inner {
+.footer-inner,
+.paper-links {
   color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 ul,
